@@ -1,0 +1,86 @@
+﻿ 2016-05-05 10:33:37,012 [P10088/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.2 application starting on ROSHAN
+ 2016-05-05 10:33:37,297 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-05-05 10:33:37,305 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 9ms)
+ 2016-05-05 10:33:38,084 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-05-05 10:33:39,115 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1031ms)
+ 2016-05-05 10:33:40,160 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-05-05 10:33:40,164 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2016-05-05 10:33:40,164 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-05-05 10:33:40,172 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 9ms)
+ 2016-05-05 10:33:40,304 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-05-05 10:33:40,308 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2016-05-05 10:33:40,312 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-05-05 10:33:40,344 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 32ms)
+ 2016-05-05 10:33:41,271 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-05-05 10:33:41,271 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-05-05 10:33:41,271 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-05-05 10:33:41,271 [P10088/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-05-05 10:33:47,283 [P10088/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-05 10:33:49,348 [P10088/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-05 10:33:49,416 [P10088/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-05-05 10:33:50,124 [P10088/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-05-05 10:33:51,540 [P10088/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-05-05 10:33:52,023 [P10088/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-05-05 10:33:52,256 [P10088/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 15644ms)
+ 2016-05-05 10:34:17,202 [P10088/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:25806/umbraco (UmbracoModule request)
+ 2016-05-05 10:34:17,302 [P10088/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:25806/umbraco (UmbracoModule request)
+ 2016-05-05 10:34:18,030 [P10088/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-05-05 10:34:18,082 [P10088/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-05-05 10:34:20,205 [P10088/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-05-05 10:34:20,205 [P10088/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-05-05 10:35:18,557 [P10088/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-05-05 10:35:18,557 [P10088/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2016-05-05 10:35:18,619 [P10088/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-05-04 10:35:18
+ 2016-05-05 10:41:26,544 [P10088/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username unique_roshan@yahoo.com from IP address ::1
+ 2016-05-05 10:41:26,547 [P10088/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: unique_roshan@yahoo.com logged in from IP address ::1
+ 2016-05-05 10:41:26,860 [P10088/D2/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username unique_roshan@yahoo.com from IP address ::1
+ 2016-05-05 10:41:26,860 [P10088/D2/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: unique_roshan@yahoo.com logged in from IP address ::1
+ 2016-05-05 10:41:27,128 [P10088/D2/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-05 10:41:27,128 [P10088/D2/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2016-05-05 10:41:27,254 [P10088/D2/T38] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The anti-forgery cookie token and form field token do not match.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-05-05 10:41:27,302 [P10088/D2/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-05-05 10:41:27,302 [P10088/D2/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2016-05-05 10:41:27,342 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-05 10:41:27,346 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2016-05-05 10:41:27,366 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-05 10:41:27,366 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-05 10:41:27,370 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-05-05 10:41:27,370 [P10088/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-05-05 10:43:20,636 [P10088/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-05-05 10:43:20,640 [P10088/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2016-05-05 10:45:57,947 [P10088/D2/T22] INFO  Umbraco.Web.Editors.AuthenticationController - User unique_roshan@yahoo.com from IP address ::1 has logged out
+ 2016-05-05 10:46:06,280 [P10088/D2/T25] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:46:07,650 [P10088/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:46:09,347 [P10088/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:46:09,545 [P10088/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:46:13,094 [P10088/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:46:20,991 [P10088/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username unique_roshan@yahoo.com from IP address ::1
+ 2016-05-05 10:46:20,991 [P10088/D2/T22] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: unique_roshan@yahoo.com logged in from IP address ::1
+ 2016-05-05 10:48:13,749 [P10088/D2/T51] INFO  Umbraco.Web.Editors.AuthenticationController - User unique_roshan@yahoo.com from IP address ::1 has logged out
+ 2016-05-05 10:48:19,203 [P10088/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:48:20,497 [P10088/D2/T29] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:48:20,687 [P10088/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:48:20,869 [P10088/D2/T61] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:48:29,400 [P10088/D2/T51] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username uniqueroshan1111@gmail.com from IP address ::1
+ 2016-05-05 10:48:43,643 [P10088/D2/T46] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username editor from IP address ::1
+ 2016-05-05 10:48:43,643 [P10088/D2/T46] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: editor logged in from IP address ::1
+ 2016-05-05 10:51:28,106 [P10088/D2/T38] INFO  Umbraco.Web.Editors.AuthenticationController - User editor from IP address ::1 has logged out
+ 2016-05-05 10:51:31,697 [P10088/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username unique_roshan@yahoo.com from IP address ::1
+ 2016-05-05 10:51:31,697 [P10088/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: unique_roshan@yahoo.com logged in from IP address ::1
+ 2016-05-05 10:52:03,471 [P10088/D2/T41] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-05-05 10:52:03,475 [P10088/D2/T41] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-05-05 10:52:45,557 [P10088/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'editor news' with Id '1084' has been published.
+ 2016-05-05 10:52:49,994 [P10088/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-05-05 10:52:50,010 [P10088/D2/T37] INFO  umbraco.content - Saved Xml to file.
+ 2016-05-05 10:55:53,038 [P10088/D2/T40] INFO  Umbraco.Web.Editors.AuthenticationController - User unique_roshan@yahoo.com from IP address ::1 has logged out
+ 2016-05-05 10:55:58,322 [P10088/D2/T71] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username editor from IP address ::1
+ 2016-05-05 10:55:58,322 [P10088/D2/T71] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: editor logged in from IP address ::1
+ 2016-05-05 10:57:27,032 [P10088/D2/T30] INFO  Umbraco.Web.Editors.AuthenticationController - User editor from IP address ::1 has logged out
+ 2016-05-05 10:57:28,835 [P10088/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username unique_roshan@yahoo.com from IP address ::1
+ 2016-05-05 10:57:28,835 [P10088/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: unique_roshan@yahoo.com logged in from IP address ::1
+ 2016-05-05 11:17:00,122 [P10088/D2/T149] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: unique_roshan@yahoo.com, IP Address: ::1

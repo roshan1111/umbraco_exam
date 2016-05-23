@@ -1,0 +1,21 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.TextPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "master.cshtml";
+}
+
+@section Head
+{
+	<script type=text/javascript>
+		alert("This is the Text page template")
+	</script>
+}
+
+
+<h2>Hello @Umbraco.Field("pageName")</h2>	
+	
+	<p>@Umbraco.Field("bodyText")</p>
+	@section footer
+{
+	<p class="footer"> Updated by @Umbraco.Field("writerName") on @Umbraco.Field("updateDate", formatAsDate: true)</p>
+		}

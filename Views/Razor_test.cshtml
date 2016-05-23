@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+@section Head
+{
+	<script type=text/javascript>
+		alert("This is the razor testing template")
+	</script>
+}
+
+
+<h2>Hello @Umbraco.Field("pageName")</h2>	
+	
+	<p>@Umbraco.Field("content")</p>
+	@section footer
+{<p>We are in the year @DateTime.Now.Year</p>
+	<p class="footer"> Updated by @Umbraco.Field("writerName") on @Umbraco.Field("updateDate", formatAsDate: true)</p>
+		}
