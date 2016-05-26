@@ -8,12 +8,13 @@
 		<meta name="description" content="SEO info">
 		<title>@Umbraco.Field("pageName")</title>
 	<link rel="stylesheet" type="text/css" href="/css/Style.css" />
-	@RenderSection("Head")
+	@RenderSection("Head",required:false)
 	</head>
 	
 	<body>
 	@{Html.RenderPartial("MainNavigation");}
 		@RenderBody()	
 	@RenderSection("Footer",required:false)
+			@{Html.RenderPartial("logout");}
 	</body>
 </html>
